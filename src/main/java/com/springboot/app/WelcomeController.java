@@ -33,5 +33,10 @@ public class WelcomeController {
 	{
 		return "WelCome delete";
 	}
+	@GetMapping("/xyz")
+	public String xyz()
+	{
+		return "WelCome xyz";
+	}
 	
 }
